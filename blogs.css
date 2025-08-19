@@ -1,0 +1,70 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fff6e5;
+  color: #333;
+}
+
+.blog-header {
+  text-align: center;
+  padding: 20px;
+  background: teal;
+  color: white;
+}
+.blog-header h1 {
+  margin-bottom: 10px;
+}
+.blog-meta {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+
+.blog-hero img {
+  width: 100%;
+  height: auto;
+  border-bottom: 4px solid teal;
+}
+
+.blog-content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.blog-content h2 {
+  margin-top: 25px;
+  color: teal;
+}
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Conclusion Box */
+.conclusion {
+  margin-top: 30px;
+  padding: 15px;
+  background: teal;
+  border-left: 5px solid teal;
+  color: white;
+}
+.conclusion h3 {
+  margin-top: 0;
+}
+
+/* Call To Action */
+.cta {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  background: teal;
+  color: white;
+  border-radius: 5px;
+}
+.cta a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
