@@ -242,7 +242,6 @@ body {
       cursor: pointer;
       transition: all 0.3s ease;
       
-      
       text-decoration: none;
     }
 
@@ -254,6 +253,7 @@ body {
     .arrow-btn1 {
       display:inline-flex;
       margin-left: 10px;
+      text-align: center;
       align-items: center;
       justify-content: center;
       width: 35px;
@@ -264,8 +264,6 @@ body {
       font-size: 24px;
       cursor: pointer;
       transition: all 0.3s ease;
-      
-      
       text-decoration: none;
     }
     .arrow-btn1:hover{
@@ -343,7 +341,7 @@ body {
          align-items: center;         
          justify-content: space-between;
          margin: 50px;
-         gap: 30px;   
+         gap: 20px;   
          
         
     }
@@ -355,13 +353,31 @@ body {
 
     }
    .image img {
-      width: 400px;
-      height: 300px;
+      max-width: 500px;
+      width: 350px;
+      height: auto;
       border-radius: 10px;
       object-fit: cover;
-      display: flex;
-      flex-wrap: wrap;
+      
     }
+   @media (max-width: 768px) {
+  .image-with-text {
+    margin: 20px;
+    gap: 10px;
+  }
+
+  .image img {
+    width: 200px;   /* smaller image for mobile */
+  }
+
+  .text {
+    margin: 10px;
+    max-width: 200px; /* prevent text from being too wide */
+  }
+}
+
+
+
    
  .parallax-container {
   background-image: url('./transition-img.jpg');
