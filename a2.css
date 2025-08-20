@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #fff6e5;
     color: black;
+    padding: 0;
 }
 
 .header {
@@ -292,10 +293,10 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center; /* keep them centered */
-        gap: 30px; 
+        gap: 20px; 
     }
     .img-1{
-      flex: 1 1 300px; /* each takes min 300px, shrinks/grows if needed */
+      flex: 1 1  300px; /* each takes min 300px, shrinks/grows if needed */
       max-width: 300px; /* keep them from stretching too much */
       text-align: center;
     }
@@ -307,14 +308,15 @@ body {
         margin-top: 20px;
         margin-left: 20px;
         border-radius: 40px;
-    }
-    /*.three-image-block1{
+  }
+    .three-image-block1{
         width: 300px;
         height: 300px;
         padding: 10px;
         border-radius: 40px;
-        margin-left: 30px;
-    }*/
+        margin-left:20px;
+        gap: 20px;
+    }
 
     .img-1 h2{
         font-family: 'Times New Roman', Times, serif;
@@ -324,14 +326,24 @@ body {
         font-family: 'Times New Roman', Times, serif;
         padding: 20px;
     }
+    .img-1-i{
+      flex: 1 1  300px; /* each takes min 300px, shrinks/grows if needed */
+      max-width: 300px; /* keep them from stretching too much */
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 20px;
+      text-align: center;
+      margin-top: 150px;
+
+    }
 
     .image-with-text{
          display: flex;     
-         flex-wrap: wrap;           /* Places text and image side by side */
-         align-items: center;          /* Vertically align text with image */
+         flex-wrap: wrap;           
+         align-items: center;         
          justify-content: space-between;
          margin: 50px;
-         gap: 40px;   
+         gap: 30px;   
          
         
     }
@@ -343,22 +355,25 @@ body {
 
     }
    .image img {
-      width: 450px;
+      width: 400px;
       height: 300px;
       border-radius: 10px;
       object-fit: cover;
       display: flex;
       flex-wrap: wrap;
     }
-
-.parallax-container {
+   
+ .parallax-container {
   background-image: url('./transition-img.jpg');
-  height: 100vh;                     /* Full screen height */
-  background-attachment: fixed;      /* Magic line: makes it stay while scrolling */
+  height: 100vh;              
+  width: 100%;               
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-    }
+  background-size: cover;  
+}
+
+  
+
 
 .headings-container{
   display: flex;

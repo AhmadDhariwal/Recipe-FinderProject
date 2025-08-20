@@ -132,3 +132,5 @@ window.addEventListener('click', (event) => {
         recipeDetailsModal.style.display = 'none';
     }
 });
+
+
